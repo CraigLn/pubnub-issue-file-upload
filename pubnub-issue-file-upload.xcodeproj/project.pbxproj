@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		354FF596281B4D7B00D81CA6 /* pubnub_issue_file_uploadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF595281B4D7B00D81CA6 /* pubnub_issue_file_uploadApp.swift */; };
+		35243A9C28204B3300765984 /* HTTPFileUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35243A9B28204B3300765984 /* HTTPFileUploadTask.swift */; };
+		35243A9E28204B5500765984 /* App+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35243A9D28204B5500765984 /* App+Ext.swift */; };
+		354FF596281B4D7B00D81CA6 /* FileUploadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF595281B4D7B00D81CA6 /* FileUploadApp.swift */; };
 		354FF598281B4D7B00D81CA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF597281B4D7B00D81CA6 /* ContentView.swift */; };
 		354FF59A281B4D7C00D81CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354FF599281B4D7C00D81CA6 /* Assets.xcassets */; };
 		354FF59D281B4D7C00D81CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354FF59C281B4D7C00D81CA6 /* Preview Assets.xcassets */; };
+		354FF5A6281B5A2A00D81CA6 /* PubNub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF5A5281B5A2A00D81CA6 /* PubNub.swift */; };
+		354FF5AB281C8DD900D81CA6 /* FileNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF5AA281C8DD900D81CA6 /* FileNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35243A9B28204B3300765984 /* HTTPFileUploadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFileUploadTask.swift; sourceTree = "<group>"; };
+		35243A9D28204B5500765984 /* App+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Ext.swift"; sourceTree = "<group>"; };
 		354FF592281B4D7B00D81CA6 /* pubnub-issue-file-upload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pubnub-issue-file-upload.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		354FF595281B4D7B00D81CA6 /* pubnub_issue_file_uploadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pubnub_issue_file_uploadApp.swift; sourceTree = "<group>"; };
+		354FF595281B4D7B00D81CA6 /* FileUploadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadApp.swift; sourceTree = "<group>"; };
 		354FF597281B4D7B00D81CA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		354FF599281B4D7C00D81CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		354FF59C281B4D7C00D81CA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		354FF5A5281B5A2A00D81CA6 /* PubNub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubNub.swift; sourceTree = "<group>"; };
+		354FF5A8281C66AD00D81CA6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		354FF5AA281C8DD900D81CA6 /* FileNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +46,7 @@
 			children = (
 				354FF594281B4D7B00D81CA6 /* pubnub-issue-file-upload */,
 				354FF593281B4D7B00D81CA6 /* Products */,
+				354FF5A7281C66AD00D81CA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +61,12 @@
 		354FF594281B4D7B00D81CA6 /* pubnub-issue-file-upload */ = {
 			isa = PBXGroup;
 			children = (
-				354FF595281B4D7B00D81CA6 /* pubnub_issue_file_uploadApp.swift */,
+				354FF595281B4D7B00D81CA6 /* FileUploadApp.swift */,
 				354FF597281B4D7B00D81CA6 /* ContentView.swift */,
+				354FF5A5281B5A2A00D81CA6 /* PubNub.swift */,
+				354FF5AA281C8DD900D81CA6 /* FileNetwork.swift */,
+				35243A9B28204B3300765984 /* HTTPFileUploadTask.swift */,
+				35243A9D28204B5500765984 /* App+Ext.swift */,
 				354FF599281B4D7C00D81CA6 /* Assets.xcassets */,
 				354FF59B281B4D7C00D81CA6 /* Preview Content */,
 			);
@@ -65,6 +79,14 @@
 				354FF59C281B4D7C00D81CA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		354FF5A7281C66AD00D81CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				354FF5A8281C66AD00D81CA6 /* CoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354FF5AB281C8DD900D81CA6 /* FileNetwork.swift in Sources */,
+				35243A9E28204B5500765984 /* App+Ext.swift in Sources */,
 				354FF598281B4D7B00D81CA6 /* ContentView.swift in Sources */,
-				354FF596281B4D7B00D81CA6 /* pubnub_issue_file_uploadApp.swift in Sources */,
+				354FF596281B4D7B00D81CA6 /* FileUploadApp.swift in Sources */,
+				354FF5A6281B5A2A00D81CA6 /* PubNub.swift in Sources */,
+				35243A9C28204B3300765984 /* HTTPFileUploadTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +306,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.components.pubnub-issue-file-upload";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.issue.file-upload";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.components.pubnub-issue-file-upload";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.issue.file-upload";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
