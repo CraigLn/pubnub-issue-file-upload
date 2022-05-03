@@ -103,4 +103,23 @@ open class FileSessionUploadDelegate: NSObject, URLSessionDataDelegate {
   open func urlSession(_: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
     (tasksByIdentifier[dataTask.taskIdentifier])?.didReceieve(data: data)
   }
+  
+  open func urlSession(_ session: URLSession, task: URLSessionTask, didFinishCollecting metrics: URLSessionTaskMetrics) {
+    for metric in metrics.transactionMetrics {
+      print("Metric: \(metric)")
+      
+      switch metric.resourceFetchType {
+      case .localCache:
+        print("Resource was fetched from the local cache")
+      case .networkLoad:
+        print("Resource was fetched from the network")
+      case .serverPush:
+        print("Resource was a server push")
+      case .unknown:
+        print("Resource was unknown")
+      @unknown default:
+        print("Resource was unknown")
+      }
+    }
+  }
 }
