@@ -5,7 +5,7 @@
 //  Created by Craig Lane on 4/29/22.
 //
 
-import UIKit
+import Foundation
 
 class FileNetwork {
   
@@ -15,15 +15,28 @@ class FileNetwork {
     case background
   }
   
+  /// URLSessionConfiguration
+  static let defaultConfiguration: URLSessionConfiguration = {
+    var config = URLSessionConfiguration.default
+    config.requestCachePolicy = .reloadIgnoringCacheData
+    return config
+  }()
+
+  static let backgroundConfiguration: URLSessionConfiguration = {
+    var config = URLSessionConfiguration.background(withIdentifier: "com.pubnub.file")
+    config.requestCachePolicy = .reloadIgnoringCacheData
+    return config
+  }()
+  
   /// URLSessin used when `SessionType` is `default`
   let defaultSession = URLSession(
-    configuration: .default,
+    configuration: defaultConfiguration,
     delegate: FileSessionUploadDelegate(),
     delegateQueue: .main
   )
   /// URLSessin used when `SessionType` is `background`
   let backgroundSession = URLSession(
-    configuration: .background(withIdentifier: "com.pubnub.file"),
+    configuration: backgroundConfiguration,
     delegate: FileSessionUploadDelegate(),
     delegateQueue: .main
   )

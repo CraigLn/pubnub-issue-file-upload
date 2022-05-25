@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import os
   
 /// Encapsulation of PubNub specific configuration and logic
 struct PubNub {
@@ -29,6 +30,8 @@ struct PubNub {
       }
     }
   }
+  
+  static let log = Logger(subsystem: "com.pubnub.issue.file-upload", category: "metrics")
 
   /// Channel that will be used for file upload
   static let channel = "file-test-upload-latency"

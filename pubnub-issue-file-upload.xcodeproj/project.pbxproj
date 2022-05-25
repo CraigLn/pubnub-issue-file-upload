@@ -7,31 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35243A9C28204B3300765984 /* HTTPFileUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35243A9B28204B3300765984 /* HTTPFileUploadTask.swift */; };
-		35243A9E28204B5500765984 /* App+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35243A9D28204B5500765984 /* App+Ext.swift */; };
-		354FF596281B4D7B00D81CA6 /* FileUploadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF595281B4D7B00D81CA6 /* FileUploadApp.swift */; };
-		354FF598281B4D7B00D81CA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF597281B4D7B00D81CA6 /* ContentView.swift */; };
-		354FF59A281B4D7C00D81CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354FF599281B4D7C00D81CA6 /* Assets.xcassets */; };
-		354FF59D281B4D7C00D81CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354FF59C281B4D7C00D81CA6 /* Preview Assets.xcassets */; };
-		354FF5A6281B5A2A00D81CA6 /* PubNub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF5A5281B5A2A00D81CA6 /* PubNub.swift */; };
-		354FF5AB281C8DD900D81CA6 /* FileNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354FF5AA281C8DD900D81CA6 /* FileNetwork.swift */; };
+		35392D10283E9406000F2DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35392CFE283E9405000F2DD8 /* Assets.xcassets */; };
+		35392D11283E9406000F2DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35392CFE283E9405000F2DD8 /* Assets.xcassets */; };
+		35392D21283E94B8000F2DD8 /* FileNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D1C283E94B8000F2DD8 /* FileNetwork.swift */; };
+		35392D22283E94B8000F2DD8 /* FileNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D1C283E94B8000F2DD8 /* FileNetwork.swift */; };
+		35392D23283E94B8000F2DD8 /* FileUploadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D1D283E94B8000F2DD8 /* FileUploadApp.swift */; };
+		35392D24283E94B8000F2DD8 /* FileUploadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D1D283E94B8000F2DD8 /* FileUploadApp.swift */; };
+		35392D25283E94B8000F2DD8 /* PubNub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D1E283E94B8000F2DD8 /* PubNub.swift */; };
+		35392D26283E94B8000F2DD8 /* PubNub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D1E283E94B8000F2DD8 /* PubNub.swift */; };
+		35392D27283E94B8000F2DD8 /* HTTPFileUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D1F283E94B8000F2DD8 /* HTTPFileUploadTask.swift */; };
+		35392D28283E94B8000F2DD8 /* HTTPFileUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D1F283E94B8000F2DD8 /* HTTPFileUploadTask.swift */; };
+		35392D29283E94B8000F2DD8 /* App+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D20283E94B8000F2DD8 /* App+Ext.swift */; };
+		35392D2A283E94B8000F2DD8 /* App+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D20283E94B8000F2DD8 /* App+Ext.swift */; };
+		35392D2C283E94F1000F2DD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D2B283E94F1000F2DD8 /* ContentView.swift */; };
+		35392D2D283E94F1000F2DD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35392D2B283E94F1000F2DD8 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35243A9B28204B3300765984 /* HTTPFileUploadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPFileUploadTask.swift; sourceTree = "<group>"; };
-		35243A9D28204B5500765984 /* App+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Ext.swift"; sourceTree = "<group>"; };
-		354FF592281B4D7B00D81CA6 /* pubnub-issue-file-upload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pubnub-issue-file-upload.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		354FF595281B4D7B00D81CA6 /* FileUploadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadApp.swift; sourceTree = "<group>"; };
-		354FF597281B4D7B00D81CA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		354FF599281B4D7C00D81CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		354FF59C281B4D7C00D81CA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		354FF5A5281B5A2A00D81CA6 /* PubNub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubNub.swift; sourceTree = "<group>"; };
-		354FF5A8281C66AD00D81CA6 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
-		354FF5AA281C8DD900D81CA6 /* FileNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNetwork.swift; sourceTree = "<group>"; };
+		35392CFE283E9405000F2DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35392D03283E9406000F2DD8 /* pubnub-issue-file-upload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pubnub-issue-file-upload.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35392D09283E9406000F2DD8 /* pubnub-issue-file-upload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pubnub-issue-file-upload.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35392D0B283E9406000F2DD8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		35392D1A283E94B8000F2DD8 /* pubnub-issue-file-upload (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pubnub-issue-file-upload (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		35392D1B283E94B8000F2DD8 /* pubnub-issue-file-upload (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pubnub-issue-file-upload (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		35392D1C283E94B8000F2DD8 /* FileNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNetwork.swift; sourceTree = "<group>"; };
+		35392D1D283E94B8000F2DD8 /* FileUploadApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploadApp.swift; sourceTree = "<group>"; };
+		35392D1E283E94B8000F2DD8 /* PubNub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PubNub.swift; sourceTree = "<group>"; };
+		35392D1F283E94B8000F2DD8 /* HTTPFileUploadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPFileUploadTask.swift; sourceTree = "<group>"; };
+		35392D20283E94B8000F2DD8 /* App+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "App+Ext.swift"; sourceTree = "<group>"; };
+		35392D2B283E94F1000F2DD8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		354FF58F281B4D7B00D81CA6 /* Frameworks */ = {
+		35392D00283E9406000F2DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35392D06283E9406000F2DD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,90 +56,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		354FF589281B4D7B00D81CA6 = {
+		35392CF6283E9404000F2DD8 = {
 			isa = PBXGroup;
 			children = (
-				354FF594281B4D7B00D81CA6 /* pubnub-issue-file-upload */,
-				354FF593281B4D7B00D81CA6 /* Products */,
-				354FF5A7281C66AD00D81CA6 /* Frameworks */,
+				35392CFB283E9404000F2DD8 /* Shared */,
+				35392D0A283E9406000F2DD8 /* macOS */,
+				35392D04283E9406000F2DD8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		354FF593281B4D7B00D81CA6 /* Products */ = {
+		35392CFB283E9404000F2DD8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				354FF592281B4D7B00D81CA6 /* pubnub-issue-file-upload.app */,
+				35392D1D283E94B8000F2DD8 /* FileUploadApp.swift */,
+				35392D2B283E94F1000F2DD8 /* ContentView.swift */,
+				35392D1E283E94B8000F2DD8 /* PubNub.swift */,
+				35392D1C283E94B8000F2DD8 /* FileNetwork.swift */,
+				35392D1F283E94B8000F2DD8 /* HTTPFileUploadTask.swift */,
+				35392D20283E94B8000F2DD8 /* App+Ext.swift */,
+				35392CFE283E9405000F2DD8 /* Assets.xcassets */,
+				35392D1A283E94B8000F2DD8 /* pubnub-issue-file-upload (iOS)-Bridging-Header.h */,
+				35392D1B283E94B8000F2DD8 /* pubnub-issue-file-upload (macOS)-Bridging-Header.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		35392D04283E9406000F2DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35392D03283E9406000F2DD8 /* pubnub-issue-file-upload.app */,
+				35392D09283E9406000F2DD8 /* pubnub-issue-file-upload.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		354FF594281B4D7B00D81CA6 /* pubnub-issue-file-upload */ = {
+		35392D0A283E9406000F2DD8 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				354FF595281B4D7B00D81CA6 /* FileUploadApp.swift */,
-				354FF597281B4D7B00D81CA6 /* ContentView.swift */,
-				354FF5A5281B5A2A00D81CA6 /* PubNub.swift */,
-				354FF5AA281C8DD900D81CA6 /* FileNetwork.swift */,
-				35243A9B28204B3300765984 /* HTTPFileUploadTask.swift */,
-				35243A9D28204B5500765984 /* App+Ext.swift */,
-				354FF599281B4D7C00D81CA6 /* Assets.xcassets */,
-				354FF59B281B4D7C00D81CA6 /* Preview Content */,
+				35392D0B283E9406000F2DD8 /* macOS.entitlements */,
 			);
-			path = "pubnub-issue-file-upload";
-			sourceTree = "<group>";
-		};
-		354FF59B281B4D7C00D81CA6 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				354FF59C281B4D7C00D81CA6 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		354FF5A7281C66AD00D81CA6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				354FF5A8281C66AD00D81CA6 /* CoreServices.framework */,
-			);
-			name = Frameworks;
+			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		354FF591281B4D7B00D81CA6 /* pubnub-issue-file-upload */ = {
+		35392D02283E9406000F2DD8 /* pubnub-issue-file-upload (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 354FF5A0281B4D7C00D81CA6 /* Build configuration list for PBXNativeTarget "pubnub-issue-file-upload" */;
+			buildConfigurationList = 35392D14283E9406000F2DD8 /* Build configuration list for PBXNativeTarget "pubnub-issue-file-upload (iOS)" */;
 			buildPhases = (
-				354FF58E281B4D7B00D81CA6 /* Sources */,
-				354FF58F281B4D7B00D81CA6 /* Frameworks */,
-				354FF590281B4D7B00D81CA6 /* Resources */,
+				35392CFF283E9406000F2DD8 /* Sources */,
+				35392D00283E9406000F2DD8 /* Frameworks */,
+				35392D01283E9406000F2DD8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "pubnub-issue-file-upload";
-			productName = "pubnub-issue-file-upload";
-			productReference = 354FF592281B4D7B00D81CA6 /* pubnub-issue-file-upload.app */;
+			name = "pubnub-issue-file-upload (iOS)";
+			productName = "pubnub-issue-file-upload (iOS)";
+			productReference = 35392D03283E9406000F2DD8 /* pubnub-issue-file-upload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35392D08283E9406000F2DD8 /* pubnub-issue-file-upload (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35392D17283E9406000F2DD8 /* Build configuration list for PBXNativeTarget "pubnub-issue-file-upload (macOS)" */;
+			buildPhases = (
+				35392D05283E9406000F2DD8 /* Sources */,
+				35392D06283E9406000F2DD8 /* Frameworks */,
+				35392D07283E9406000F2DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pubnub-issue-file-upload (macOS)";
+			productName = "pubnub-issue-file-upload (macOS)";
+			productReference = 35392D09283E9406000F2DD8 /* pubnub-issue-file-upload.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		354FF58A281B4D7B00D81CA6 /* Project object */ = {
+		35392CF7283E9404000F2DD8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					354FF591281B4D7B00D81CA6 = {
-						CreatedOnToolsVersion = 13.3.1;
+					35392D02283E9406000F2DD8 = {
+						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
+					};
+					35392D08283E9406000F2DD8 = {
+						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
-			buildConfigurationList = 354FF58D281B4D7B00D81CA6 /* Build configuration list for PBXProject "pubnub-issue-file-upload" */;
+			buildConfigurationList = 35392CFA283E9404000F2DD8 /* Build configuration list for PBXProject "pubnub-issue-file-upload" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,46 +163,67 @@
 				en,
 				Base,
 			);
-			mainGroup = 354FF589281B4D7B00D81CA6;
-			productRefGroup = 354FF593281B4D7B00D81CA6 /* Products */;
+			mainGroup = 35392CF6283E9404000F2DD8;
+			productRefGroup = 35392D04283E9406000F2DD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				354FF591281B4D7B00D81CA6 /* pubnub-issue-file-upload */,
+				35392D02283E9406000F2DD8 /* pubnub-issue-file-upload (iOS) */,
+				35392D08283E9406000F2DD8 /* pubnub-issue-file-upload (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		354FF590281B4D7B00D81CA6 /* Resources */ = {
+		35392D01283E9406000F2DD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				354FF59D281B4D7C00D81CA6 /* Preview Assets.xcassets in Resources */,
-				354FF59A281B4D7C00D81CA6 /* Assets.xcassets in Resources */,
+				35392D10283E9406000F2DD8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35392D07283E9406000F2DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35392D11283E9406000F2DD8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		354FF58E281B4D7B00D81CA6 /* Sources */ = {
+		35392CFF283E9406000F2DD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				354FF5AB281C8DD900D81CA6 /* FileNetwork.swift in Sources */,
-				35243A9E28204B5500765984 /* App+Ext.swift in Sources */,
-				354FF598281B4D7B00D81CA6 /* ContentView.swift in Sources */,
-				354FF596281B4D7B00D81CA6 /* FileUploadApp.swift in Sources */,
-				354FF5A6281B5A2A00D81CA6 /* PubNub.swift in Sources */,
-				35243A9C28204B3300765984 /* HTTPFileUploadTask.swift in Sources */,
+				35392D23283E94B8000F2DD8 /* FileUploadApp.swift in Sources */,
+				35392D21283E94B8000F2DD8 /* FileNetwork.swift in Sources */,
+				35392D2C283E94F1000F2DD8 /* ContentView.swift in Sources */,
+				35392D25283E94B8000F2DD8 /* PubNub.swift in Sources */,
+				35392D29283E94B8000F2DD8 /* App+Ext.swift in Sources */,
+				35392D27283E94B8000F2DD8 /* HTTPFileUploadTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35392D05283E9406000F2DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35392D24283E94B8000F2DD8 /* FileUploadApp.swift in Sources */,
+				35392D22283E94B8000F2DD8 /* FileNetwork.swift in Sources */,
+				35392D2D283E94F1000F2DD8 /* ContentView.swift in Sources */,
+				35392D26283E94B8000F2DD8 /* PubNub.swift in Sources */,
+				35392D2A283E94B8000F2DD8 /* App+Ext.swift in Sources */,
+				35392D28283E94B8000F2DD8 /* HTTPFileUploadTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		354FF59E281B4D7C00D81CA6 /* Debug */ = {
+		35392D12283E9406000F2DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,17 +273,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		354FF59F281B4D7C00D81CA6 /* Release */ = {
+		35392D13283E9406000F2DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,24 +325,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		354FF5A1281B4D7C00D81CA6 /* Debug */ = {
+		35392D15283E9406000F2DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"pubnub-issue-file-upload/Preview Content\"";
 				DEVELOPMENT_TEAM = 8XP4D6N55Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -301,27 +348,31 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.issue.file-upload";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "pubnub-issue-file-upload";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/pubnub-issue-file-upload (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		354FF5A2281B4D7C00D81CA6 /* Release */ = {
+		35392D16283E9406000F2DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"pubnub-issue-file-upload/Preview Content\"";
 				DEVELOPMENT_TEAM = 8XP4D6N55Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -330,41 +381,115 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.issue.file-upload";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "pubnub-issue-file-upload";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/pubnub-issue-file-upload (iOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35392D18283E9406000F2DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XP4D6N55Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.issue.file-upload";
+				PRODUCT_NAME = "pubnub-issue-file-upload";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/pubnub-issue-file-upload (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		35392D19283E9406000F2DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XP4D6N55Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.issue.file-upload";
+				PRODUCT_NAME = "pubnub-issue-file-upload";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/pubnub-issue-file-upload (macOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		354FF58D281B4D7B00D81CA6 /* Build configuration list for PBXProject "pubnub-issue-file-upload" */ = {
+		35392CFA283E9404000F2DD8 /* Build configuration list for PBXProject "pubnub-issue-file-upload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				354FF59E281B4D7C00D81CA6 /* Debug */,
-				354FF59F281B4D7C00D81CA6 /* Release */,
+				35392D12283E9406000F2DD8 /* Debug */,
+				35392D13283E9406000F2DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		354FF5A0281B4D7C00D81CA6 /* Build configuration list for PBXNativeTarget "pubnub-issue-file-upload" */ = {
+		35392D14283E9406000F2DD8 /* Build configuration list for PBXNativeTarget "pubnub-issue-file-upload (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				354FF5A1281B4D7C00D81CA6 /* Debug */,
-				354FF5A2281B4D7C00D81CA6 /* Release */,
+				35392D15283E9406000F2DD8 /* Debug */,
+				35392D16283E9406000F2DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35392D17283E9406000F2DD8 /* Build configuration list for PBXNativeTarget "pubnub-issue-file-upload (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35392D18283E9406000F2DD8 /* Debug */,
+				35392D19283E9406000F2DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 354FF58A281B4D7B00D81CA6 /* Project object */;
+	rootObject = 35392CF7283E9404000F2DD8 /* Project object */;
 }

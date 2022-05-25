@@ -37,7 +37,16 @@ struct ContentView: View {
   
   let network = FileNetwork()
   
-  let imageData = UIImage(named: "uploadFile")?.jpegData(compressionQuality: 0.98)
+  let imageData: Data? = {
+    #if os(iOS)
+    UIImage(named: "uploadFile")?.jpegData(compressionQuality: 0.98)
+    #else
+    guard let cgImage = NSImage(named: "uploadFile")?.cgImage(forProposedRect: nil, context: nil, hints: nil) else { return nil }
+    let bitmapRep = NSBitmapImageRep(cgImage: cgImage)
+    let jpegData = bitmapRep.representation(using: NSBitmapImageRep.FileType.jpeg, properties: [:])!
+    return jpegData
+    #endif
+  }()
   
   var body: some View {
     VStack {
